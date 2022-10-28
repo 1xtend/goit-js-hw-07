@@ -13,6 +13,13 @@ function increment() {
 
 function decrement() {
   return counterValue.textContent--;
+
+  // if (counterValue.textContent <= 0) {
+  //   return alert('Не може будти менше 0');
+  // }
+  // if (counterValue.textContent > 0) {
+  //   return counterValue.textContent--;
+  // }
 }
 
 // ------------
